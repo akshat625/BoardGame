@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-               git branch: 'main', credentialsId: 'git-cred', url: 'https://github.com/akshat625/BoardGame.git'
+               git branch: 'main', url: 'https://github.com/akshat625/BoardGame.git'
             }
         }
         
